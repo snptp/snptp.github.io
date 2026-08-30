@@ -40,7 +40,7 @@ h1{font-size:32px;font-weight:800;letter-spacing:.02em;position:relative;z-index
 </div>
 <audio id="bgm" src="snap.mp3" loop preload="auto"></audio>
 <script>
-const txt='Creation Studio • claw script • Catecon • neuton api • verso • flowless • lunacy • ';
+const txt='Creation Studio • claw script • catecon • neuton • verso • flowless • lunacy • mc-proxy • bkitty • xtr • ';
 document.getElementById('snake').innerHTML=Array.from({length:12},()=>`<div class="line"><div class="track"><span>${txt}</span><span>${txt}</span></div></div>`).join('');
 const a=document.getElementById('bgm');a.volume=.42;function p(){a.play().catch(()=>{})}p();addEventListener('click',p,{once:true});
 document.addEventListener('contextmenu',e=>e.preventDefault());
